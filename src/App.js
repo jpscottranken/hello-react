@@ -61,9 +61,9 @@ class App extends Component {
 		
 		const styles    = {};
 
-		function startTime() {
-			setTimeout(startTime, 1000);
-		}
+		// function startTime() {
+		//	setTimeout(startTime, 1000);
+		//}
 		  
 		  function checkTime(i) {
 			if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
@@ -75,7 +75,7 @@ class App extends Component {
 		let   day  		= d.getDate();
 		let   year 		= d.getFullYear();
 		
-		// //	Add a.m. or p.m. depending on time of day
+		// // //	Add a.m. or p.m. depending on time of day
 		if ((h >= 0) && (h < 12)) {
 			ap = " a.m.";
 		}
